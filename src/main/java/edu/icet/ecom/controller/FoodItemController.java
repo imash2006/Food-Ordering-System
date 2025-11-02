@@ -17,4 +17,5 @@ public class FoodItemController {
     public void insert(@RequestBody Food food){
         System.out.println(food);
     }
+
 }

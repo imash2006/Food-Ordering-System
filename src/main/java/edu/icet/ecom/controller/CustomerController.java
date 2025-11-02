@@ -1,9 +1,7 @@
 package edu.icet.ecom.controller;
 
 import edu.icet.ecom.Service.CustomerService;
-import edu.icet.ecom.Service.FoodService;
 import edu.icet.ecom.model.dto.Customer;
-import edu.icet.ecom.model.dto.Food;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
