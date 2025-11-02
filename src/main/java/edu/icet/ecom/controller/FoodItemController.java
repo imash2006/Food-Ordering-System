@@ -18,4 +18,8 @@ public class FoodItemController {
         System.out.println(food);
     }
 
+    @DeleteMapping("/delete")
+    public void delete(@RequestBody Food food){
+        System.out.println(food);
+    }
 }
